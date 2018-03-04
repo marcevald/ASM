@@ -12,11 +12,10 @@
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
     <Language>ASSEMBLY</Language>
     <AssemblyName>Lektion4</AssemblyName>
-    <Name>Lektion4</Name>
+    <Name>MIC</Name>
     <RootNamespace>Lektion4</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
-    <EntryFile>
-    </EntryFile>
+    <EntryFile>$(MSBuildProjectDirectory)\Lektion 4\opg_3.asm</EntryFile>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
     <CacheFlash>true</CacheFlash>
@@ -74,6 +73,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Lektion 4\opg_2_c.asm">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lektion 4\opg_3.asm">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
