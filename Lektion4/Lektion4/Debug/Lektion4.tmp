@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega32A"</DEVICE>
+ <WORKING_DIR>C:\git\ASM\Lektion4\Lektion4\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\git\ASM\Lektion4\Lektion4\Lek_4_opg_2_c.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc\m32adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\git\ASM\Lektion4\Lektion4\Debug\Lektion4.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lektion4.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lektion4.map</FILE>
+  <FILE>Lektion4.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\git\ASM\Lektion4\Lektion4\Lek_4_opg_2_c.asm</FILE><LINE>12</LINE></init>
+  <main><FILE>C:\git\ASM\Lektion4\Lektion4\Lek_4_opg_2_c.asm</FILE><LINE>26</LINE></main>
+  <second><FILE>C:\git\ASM\Lektion4\Lektion4\Lek_4_opg_2_c.asm</FILE><LINE>37</LINE></second>
+ </LABELS>
+</ASSEMBLER_INFO>
