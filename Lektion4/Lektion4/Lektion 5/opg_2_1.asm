@@ -4,7 +4,7 @@
 ; Created: 04-03-2018 18:00:44
 ; Author : Marc 
 ; Solution for assignment 3, lecture 5
-;
+; Solution 1
 	.org 0
 
 init:
