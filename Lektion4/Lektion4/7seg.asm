@@ -3,7 +3,6 @@
 ; * Output the value of switches 0-3
 ; * as hex value on 7-segment display
 ; ***********************************
-.include "m32def.inc"
 
 .org	0
 	rjmp	init
