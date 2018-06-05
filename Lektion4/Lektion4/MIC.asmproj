@@ -15,7 +15,7 @@
     <Name>MIC</Name>
     <RootNamespace>Lektion4</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
-    <EntryFile>$(MSBuildProjectDirectory)\Lektion 6\opg_1.asm</EntryFile>
+    <EntryFile>$(MSBuildProjectDirectory)\Lektion 9\Lektion9.asm</EntryFile>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
     <CacheFlash>true</CacheFlash>
@@ -119,11 +119,19 @@
     <Compile Include="Lektion 6\opg_1.asm">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Lektion 10\Lektion10.asm">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lektion 9\Lektion9.asm">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Lektion 4" />
     <Folder Include="Lektion 5" />
     <Folder Include="Lektion 6" />
+    <Folder Include="Lektion 10" />
+    <Folder Include="Lektion 9\" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Assembler.targets" />
 </Project>
